@@ -72,5 +72,23 @@ public class Main {
             System.out.println("Either or both of the are true");
         }
 
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if (isCar == true) {
+            System.out.println("This is not supposed to happen 1");
+        }
+        // short cut
+        if (isCar) {
+            System.out.println("This is not supposed to happen 2");
+        }
+        // not operator
+        if (!isCar) {
+            System.out.println("This is not supposed to happen 3");
+        }
+
     }
 }

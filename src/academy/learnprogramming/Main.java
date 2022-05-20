@@ -63,5 +63,14 @@ public class Main {
             System.out.println("Greater than second top score and leass then 100");
         }
 
+        int secondTopScore2 = 81;
+        if ((topScore > secondTopScore2) && (topScore < 100)) {
+            System.out.println("Greater than second top score and less then 100");
+        }
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the are true");
+        }
+
     }
 }

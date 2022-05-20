@@ -90,5 +90,10 @@ public class Main {
             System.out.println("This is not supposed to happen 3");
         }
 
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
     }
 }
